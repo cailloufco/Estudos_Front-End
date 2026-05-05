@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+div{
+    width: 300px;
+    height: 300px;
+}
+#div1{
+    background-color: aqua;
+    border-style: dashed;
+}
+#div2{
+    background-color: coral;
+    border-style: dashed;
+}
