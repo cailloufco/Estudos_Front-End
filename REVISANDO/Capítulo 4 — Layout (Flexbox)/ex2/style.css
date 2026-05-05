@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cards {
+    width: 150px;
+    height: 240px;
+    border-radius: 15px;
+    border-style: dashed;
+}
+#card1{
+background-color: blue;
+}
+#card2{
+background-color: red;
+}
+#card3{
+background-color: purple;
+}
