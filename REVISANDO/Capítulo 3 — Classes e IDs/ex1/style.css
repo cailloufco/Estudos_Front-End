@@ -1,0 +1,19 @@
+/* 
+Agora no CSS:
+Use classe para estilizar as duas divs (mesmo estilo)
+Use ID para deixar uma delas diferente 
+*/
+.div_box{
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: dashed;
+    margin-top: 5px;
+}
+#especial{
+    background-color: gray;
+    color: blueviolet;
+}
+#especial > h1{
+    text-align: center;
+}
